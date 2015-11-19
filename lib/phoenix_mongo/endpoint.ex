@@ -32,5 +32,5 @@ defmodule PhoenixMongo.Endpoint do
     key: "_phoenix_mongo_key",
     signing_salt: "uTMF/Mef"
 
-  plug :router, PhoenixMongo.Router
+  plug PhoenixMongo.Router
 end
